@@ -1,11 +1,12 @@
 {
   "formatVersion": 1,
-  "passTypeIdentifier": "pass.envirobuildsolutions", // *** REPLACE with your actual registered Pass Type ID ***
-  "serialNumber": "KBAN_SN_3856274091582367402938", // Using 'kban' from kban data.txt for uniqueness
-  "teamIdentifier": "57KRS9QV53",    // *** REPLACE with your actual Apple Developer Team ID ***
-  "organizationName": "trinityholdingcorp",
+  "passTypeIdentifier": "pass.envirobuildsolutions",
+  "serialNumber": "KBAN_SN_3856274091582367402938",
+  "teamIdentifier": "57KRS9QV53",
+  "organizationName": "reap.la", // Changed from "trinityholdingcorp"
   "description": "KBAN Access and Information Pass",
-  "logoText": "REAP KBAN", // Text displayed near the logo.png
+  "logoText": "REAP KBAN",
+}
   "foregroundColor": "rgb(255, 255, 255)", // White text
   "backgroundColor": "rgb(40, 45, 60)",    // Dark slate blue, adjust to your branding
   "labelColor": "rgb(170, 175, 190)",      // Light gray/blue for field labels
@@ -83,4 +84,7 @@
       }
     ]
   }
+}
+{
+
 }
