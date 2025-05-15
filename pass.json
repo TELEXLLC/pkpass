@@ -1,0 +1,90 @@
+{
+  "formatVersion": 1,
+  "passTypeIdentifier": "pass.envirobuildsolutions",
+  "serialNumber": "KBAN_SN_3856274091582367402938",
+  "teamIdentifier": "57KRS9QV53",
+  "organizationName": "reap.la", // Changed from "trinityholdingcorp"
+  "description": "KBAN Access and Information Pass",
+  "logoText": "REAP KBAN",
+}
+  "foregroundColor": "rgb(255, 255, 255)", // White text
+  "backgroundColor": "rgb(40, 45, 60)",    // Dark slate blue, adjust to your branding
+  "labelColor": "rgb(170, 175, 190)",      // Light gray/blue for field labels
+  "sharingProhibited": true, // Set to false if the pass contents are okay to be shared
+
+  "generic": { // Using 'generic' pass style for flexibility
+    "headerFields": [
+      {
+        "key": "validityStatus",
+        "label": "Status",
+        "value": "Active / Valid" // Based on kban_isvalid and aban_isvalid
+      }
+    ],
+    "primaryFields": [
+      {
+        "key": "kbanId",
+        "label": "KBAN",
+        "value": "3856274091582367402938" // From kban data.txt
+      }
+    ],
+    "secondaryFields": [
+      {
+        "key": "amid",
+        "label": "AMID",
+        "value": "M5051101982409930278698" // From kban data.txt
+      }
+    ],
+    "auxiliaryFields": [
+      {
+        "key": "bzim",
+        "label": "BZIM",
+        "value": "HGW0395Y883 **98" // From kban data.txt
+      },
+      {
+        "key": "kbanCountry",
+        "label": "KBAN Country",
+        "value": "38" // From kban data.txt
+      }
+    ],
+    "backFields": [ // Information displayed on the back of the pass
+      {
+        "key": "bban",
+        "label": "BBAN",
+        "value": "274091582367402938" // From kban data.txt
+      },
+      {
+        "key": "checksum",
+        "label": "Checksum",
+        "value": "56" // From kban data.txt
+      },
+      {
+        "key": "kbanValidStatus",
+        "label": "KBAN Valid (Source)",
+        "value": "Valid" // From kban data.txt
+      },
+      {
+        "key": "abanValidStatus",
+        "label": "ABAN Valid (Source)",
+        "value": "true" // From kban data.txt
+      },
+      {
+        "key": "reapUserIdentifier",
+        "label": "Reap User ID",
+        "value": "1730697551490x214949768116758700" // From reap user account id.txt
+      },
+      {
+        "key": "reapSignupIdentifier",
+        "label": "Reap Signup Token",
+        "value": "CI10T41952939" // From reap signup token 2025.txt
+      },
+      {
+        "key": "infoLink",
+        "label": "More Information",
+        "value": "Contact t.me/reapware or visit reap.la for service details."
+      }
+    ]
+  }
+}
+{
+
+}
