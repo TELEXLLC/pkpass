@@ -1,0 +1,22 @@
+{
+"kban" : "3856274091582367402938",
+"bank_name" : "This field is for premium subscribers only.",
+"iban_isvalid": "",
+"account_number" : "",
+"bank_code" : "",
+"country" : "38",
+"checksum" : "56",
+"bban" : "274091582367402938",
+"kban_isvalid" : "Valid",
+}
+
+
+
+{
+"amid" : "M5051101982409930278698",
+"business_connect" : "valid",
+"account_number" : "1730697551490x2",
+"bank_code" : "",
+"country" : "UNITED STATES",
+"bzim" : "HGW0395Y883 **98",
+"aban_isvalid" : "true",

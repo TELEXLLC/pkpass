@@ -1,0 +1,47 @@
+{
+  "version": 2,
+  "headers": [
+    {
+      "source": "/passes/(.*\\.pkpass)", // Matches any .pkpass file within the /passes/ directory
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "application/vnd.apple.pkpass"
+        }
+      ]
+    }
+  ]
+}
+
+
+
+
+
+
+
+{
+  "headers": [
+    {
+      "source": "\MyKbanPassProject\Email_Kban.pkpass",
+      "headers": [
+        { "key": "Content-Type", "value": "application/vnd.apple.pkpass" }
+      ]
+    }
+  ]
+}
+
+
+
+
+
+
+{
+  "headers": [
+    {
+      "source": "\MyKbanPassProject\MyKbanPass.pkpass",
+      "headers": [
+        { "key": "Content-Type", "value": "application/vnd.apple.pkpass" }
+      ]
+    }
+  ]
+}
