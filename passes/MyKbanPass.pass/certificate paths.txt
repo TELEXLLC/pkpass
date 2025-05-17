@@ -1,9 +1,0 @@
-\MyKbanPassProject\MyVercelProject\passes\MyKbanPass.pass\Certificates\57KRS9QV53.pem
-\MyKbanPassProject\MyVercelProject\passes\MyKbanPass.pass\Certificates\ALDsigning.pem
-\MyKbanPassProject\MyVercelProject\passes\MyKbanPass.pass\Certificates\AppleWWDR.pem
-\MyKbanPassProject\MyVercelProject\passes\MyKbanPass.pass\Certificates\AppleWWDRCAG3.pem
-\MyKbanPassProject\MyVercelProject\passes\MyKbanPass.pass\Certificates\AppleWWDRCAG4.pem
-\MyKbanPassProject\MyVercelProject\passes\MyKbanPass.pass\Certificates\merchant.iPhone14.pem
-\MyKbanPassProject\MyVercelProject\passes\MyKbanPass.pass\Certificates\PassID.pem
-\MyKbanPassProject\MyVercelProject\passes\MyKbanPass.pass\Certificates\reapkey.csr
-\MyKbanPassProject\MyVercelProject\passes\MyKbanPass.pass\Certificates\reapkey.pem
